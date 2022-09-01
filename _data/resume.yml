@@ -34,9 +34,8 @@ main: #简历主要内容，
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 哈尔滨工业大学
-    duration: "本科三年级"
     #sub: 地点或学历
-    detail: 软件工程系,绩点专业前50%，通过CET4考试
+    detail: 软件工程系,本科三年级。绩点专业前50%，通过CET4考试
 
 - type: skills
   name: 技能
@@ -67,9 +66,25 @@ main: #简历主要内容，
     detail: Docker上搭建四节点Hadoop分布式系统和Mysql容器组成集群，其中Master节点负责Hadoop与Mysql的数据通信，Slave节点负责数据清洗,用户在网页搜索的数据经过爬取后传入集群，最后将清洗后的数据返回用户/
     sub: 集群搭建
   - title: Python实现的比价网
-    duration: 2021年上半年 校长杯学术创新赛道
+    duration: 2021 校长杯学术创新赛道
     detail: 爬虫爬取Amazon商品价格，将历史价格显示在网页上，并将程序部署至腾讯云服务器
     sub: 数据分析
+  - title: 基于SpringBoot的电信结算系统
+    duration: 2022.7 信华信技术股份有限公司
+    detail: 在SpringBoot框架下搭建简单的电信结算系统，能够实现数据库基本操作、数据库与用户交互的连接。
+    sub: Springboot & 数据库
+  - title: Pinrehit--Pin图网站
+    duration: 2022.6 小学期课设
+    detail: 使用BootStrap美化的拼图网站，可以实现瀑布式网页、用户登录、图片展示、图片上传等功能。项目仓库：
+    sub: Bootstrap & Tomcat& Maven
+  - title: 基于Python的股票预测网站（进行中）
+    duration: 2022 科技立项
+    detail: 使用机器学习的方式，选择最优算法，获得股票数据集并对数据集进行测试，测试通过后搭建相应网站
+    sub: 机器学习 & 数据分析 & Flask
+  - title: Youtube linux客户端（Applmage格式）
+    duration: 2022
+    detail: 制作Applmage包形式的Youtube客户端,项目地址：https://github.com/hitptep/YouTube_For_Linux
+    sub: Linux
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
