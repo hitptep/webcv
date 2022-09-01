@@ -15,8 +15,8 @@ contact: #联系方式连接等3~5行
 - text: "17863197271"
   href: 'tel:17863197271'
   icon: 'icons/phone.svg'
-- text: "https://hitptep.github.io/CV"
-  href: 'https://hitptep.github.io/CV'
+- text: "https://hitptep.github.io/webcv"
+  href: 'https://hitptep.github.io/webcv'
   icon: 'icons/web.svg'
 - text: "GitHubID"
   href: 'https://github.com/hitptep'
