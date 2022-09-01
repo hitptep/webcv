@@ -68,8 +68,8 @@ main: #简历主要内容，
     sub: 集群搭建
   - title: Python实现的比价网
     duration: 2021年上半年 校长杯学术创新赛道
-    detail: Docker上搭建四节点Hadoop分布式系统和Mysql容器组成集群，其中Master节点负责Hadoop与Mysql的数据通信，Slave节点负责数据清洗,用户在网页搜索的数据经过爬取后传入集群，最后将清洗后的数据返回用户/
-    sub: 集群搭建
+    detail: 爬虫爬取Amazon商品价格，将历史价格显示在网页上，并将程序部署至腾讯云服务器
+    sub: 数据分析
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
