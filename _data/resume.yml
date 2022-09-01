@@ -75,7 +75,7 @@ main: #简历主要内容，
     sub: Springboot & 数据库
   - title: Pinrehit--Pin图网站
     duration: 2022.6 小学期课设
-    detail: 使用BootStrap美化的拼图网站，可以实现瀑布式网页、用户登录、图片展示、图片上传等功能。项目仓库：
+    detail: 使用BootStrap美化的拼图网站，可以实现瀑布式网页、用户登录、图片展示、图片上传等功能。项目仓库：https://gitee.com/zzylive/pinrehit
     sub: Bootstrap & Tomcat& Maven
   - title: 基于Python的股票预测网站（进行中）
     duration: 2022 科技立项
