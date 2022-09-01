@@ -33,7 +33,7 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: Education #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 哈尔滨工业大学
+  - title:    哈尔滨工业大学
     duration: "本科三年级"
     #sub: 地点或学历
     detail: 软件工程系
@@ -41,7 +41,7 @@ main: #简历主要内容，
 - type: skills
   name: Skills
   content:
-  - title: 语言和技术
+  - title:    语言和技术
     items: #itmems 可以小块的方式显示
     - 语言：Python、C++、C、Java
     - 环境：Docker、Linux、Mysql、Opengauss、Hadoop
@@ -51,7 +51,7 @@ main: #简历主要内容，
 - type: experience
   name: Experience
   content:
-  - title: 实训
+  - title:    实训
     sub: 信华信技术股份有限公司
     duration: "2022.7"
 
