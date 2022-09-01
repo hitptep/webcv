@@ -22,7 +22,7 @@ contact: #联系方式连接等3~5行
   href: 'https://github.com/hitptep'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-  - text: "GiteeID"
+- text: "GiteeID"
   href: 'https://gitee.com/zzylive'
   icon: "https://gitee.com/static/images/logo-black.svg"
   attr: 'target="_blank"' #新标签页打开
@@ -67,7 +67,7 @@ main: #简历主要内容，
     duration: 2022.7 信华信技术股份有限公司
     detail: Docker上搭建四节点Hadoop分布式系统和Mysql容器组成集群，其中Master节点负责Hadoop与Mysql的数据通信，Slave节点负责数据清洗,用户在网页搜索的数据经过爬取后传入集群，最后将清洗后的数据返回用户/
     sub: 集群搭建
- - title: Python实现的比价网
+  - title: Python实现的比价网
     duration: 2021年上半年 校长杯学术创新赛道
     detail: Docker上搭建四节点Hadoop分布式系统和Mysql容器组成集群，其中Master节点负责Hadoop与Mysql的数据通信，Slave节点负责数据清洗,用户在网页搜索的数据经过爬取后传入集群，最后将清洗后的数据返回用户/
     sub: 集群搭建
@@ -83,7 +83,6 @@ main: #简历主要内容，
 
 #footer 脚注，打印版和web版不同不显示    
 
-#页面额外js脚本，如xx统计
-scripts:
+#页面额外js脚本，如xx统计scripts:
 #- src: "assets/js/resume.js"
 #  defer: defer #可以设置defer或者sync异步加载
