@@ -5,7 +5,7 @@ title: "个人简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "张泽原"
 #jobtitle: "求职意向" #可空不显示
-#photo: "assets/img/photo.jpg" #照片可空，不显示
+photo: "assets/img/100122955.png" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
@@ -31,15 +31,15 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: Education #显示名称，空则使用type
+  name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title:    哈尔滨工业大学
+  - title: 哈尔滨工业大学
     duration: "本科三年级"
     #sub: 地点或学历
-    detail: 软件工程系
+    detail: 软件工程系,绩点专业前50%，通过CET4考试
 
 - type: skills
-  name: Skills
+  name: 技能
   content:
   - title:    语言和技术
     items: #itmems 可以小块的方式显示
@@ -49,7 +49,7 @@ main: #简历主要内容，
 
 
 - type: experience
-  name: Experience
+  name: 经历
   content:
   - title:    实训
     sub: 信华信技术股份有限公司
@@ -60,7 +60,7 @@ main: #简历主要内容，
 
 
 - type: projects
-  name: Projects
+  name: 项目
   content:
   - title: Hadoop+Hive对Python爬取数据的清洗
     duration: 2022.7 信华信技术股份有限公司
